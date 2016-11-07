@@ -16,6 +16,7 @@ cp $GULPSCAFFOLDDIRECTORY'/gulp.config.json' ./
 cp $GULPSCAFFOLDDIRECTORY'/tslint.json' ./
 cp $GULPSCAFFOLDDIRECTORY'/tsconfig.json' ./
 cp $GULPSCAFFOLDDIRECTORY'/gulpfile.babel.js' ./
+cp $GULPSCAFFOLDDIRECTORY'/index.html' ./
 
 # Install NPM Dependencies
 if [ ! -f ./package.json ];
