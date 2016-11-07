@@ -16,7 +16,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 // React Stuff
-export class Main extends React.Component<void, IMainBaseState> {
+export class Main extends React.Component<void, any> {
   constructor() {
     super();
     // State
